@@ -1,3 +1,2 @@
-int a;
-main(){
-a=a+1;}
+int a,b;
+main(){a=a+b;}

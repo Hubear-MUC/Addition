@@ -4,6 +4,9 @@ First calculations, additions of numbers
 See readme.txt for details.
 
 
+Code Space : 23 bytes
+
+
 Changes:
 ---
 

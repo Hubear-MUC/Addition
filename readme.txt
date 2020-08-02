@@ -1,15 +1,15 @@
-Addition 2.2
+Addition 2.3
 ------------
 
 Two numbers get added together.
 
 The program has to be used with a debugger, because routines for user
-interaction did not fit into the code space of 25 bytes yet.
+interaction did not fit into the code space of 26 bytes yet.
 
 To use the program compile with debugging information.
 
-This might be achieved differently regarding which debugger you use, so
-please refer to the manual of the debugger you use.
+This might be achieved differently concerning the debugger you use, so
+please refer to the manual of your debugger.
 
 To operate the program best set a breakpoint in line 3. 
 This is still before the operation.
@@ -17,7 +17,8 @@ This is still before the operation.
   1  int a,b;
   2  main()
   3  {
-  4  a=a+b;}
+  4  a=a+b;
+  5  }
 
 Run the program and wait until it stops at the breakpoint in line 3.
 
@@ -40,6 +41,13 @@ to its end and exit.
 Changes:
 --------
 
+Version 2.3:
+
+Placed the closing curly bracket in a new line to make the code readable
+more clearly.
+In this style it looks like a usual C- program.
+
+
 Version 2.2:
 
 Placed the line with the actual operation one line below so that an opening
@@ -57,3 +65,8 @@ more clearly.
 Version 2.0:
 
 Implemented a second variable (b) to allow the addition of two numbers.
+
+
+Version 1.0:
+
+Initial implementation

@@ -4,11 +4,18 @@ First calculations, additions of numbers
 See readme.txt for details.
 
 
-Code Space : 25 bytes
+Code Space : 26 bytes
 
 
 Changes:
 ---
+
+Version 2.3:
+
+Placed the closing curly bracket in a new line to make the code readable
+more clearly.
+In this style it looks like a usual C- program.
+
 
 Version 2.2:
 

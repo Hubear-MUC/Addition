@@ -4,11 +4,19 @@ First calculations, additions of numbers
 See readme.txt for details.
 
 
-Code Space : 26 bytes
+Code Space : 27 bytes
 
 
 Changes:
 ---
+
+Version 3.0:
+
+Introducing the variable c as a third variable, so that the result is in a
+seperate one as the two summands.
+
+This might be a little more clear as an idea of getting a result.
+
 
 Version 2.3:
 

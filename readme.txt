@@ -1,10 +1,10 @@
-Addition 2.3
+Addition 3.0
 ------------
 
 Two numbers get added together.
 
 The program has to be used with a debugger, because routines for user
-interaction did not fit into the code space of 26 bytes yet.
+interaction did not fit into the code space of 27 bytes yet.
 
 To use the program compile with debugging information.
 
@@ -14,11 +14,10 @@ please refer to the manual of your debugger.
 To operate the program best set a breakpoint in line 3. 
 This is still before the operation.
 
-  1  int a,b;
-  2  main()
-  3  {
-  4  a=a+b;
-  5  }
+1  int a,b,c;
+2  main()
+3  {
+4  c=a+b;}
 
 Run the program and wait until it stops at the breakpoint in line 3.
 
@@ -26,9 +25,9 @@ Next assign the values that have to be added together to the variables a
 and b.
 
 Then continue the program execution with single steps until the operation was
-made.
+made. Usually this sould be just one step.
 
-After the calculation the result will be in variable a.
+After the calculation the result will be in variable c.
 
 Check the content of variable a to get the result.
 
@@ -36,10 +35,16 @@ Next continue the program execution in the normal way to let the program run
 to its end and exit.
 
 
-
-
 Changes:
 --------
+
+Version 3.0:
+
+Introducing the variable c as a third variable, so that the result is in a
+seperate one as the two summands.
+
+This might be a little more clear as an idea of getting a result.
+
 
 Version 2.3:
 

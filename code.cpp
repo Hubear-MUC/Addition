@@ -1,5 +1,4 @@
-int a,b;
+int a,b,c;
 main()
 {
-a=a+b;
-}
+c=a+b;}

@@ -30,7 +30,7 @@ made. Usually this sould be just one step.
 
 After the calculation the result will be in variable c.
 
-Check the content of variable a to get the result.
+Check the content of variable c to get the result.
 
 Next continue the program execution in the normal way to let the program run
 to its end and exit.

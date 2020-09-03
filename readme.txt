@@ -1,10 +1,10 @@
-Addition 3.0
+Addition 3.1
 ------------
 
 Two numbers get added together.
 
 The program has to be used with a debugger, because routines for user
-interaction did not fit into the code space of 27 bytes yet.
+interaction did not fit into the code space of 30 bytes yet.
 
 To use the program compile with debugging information.
 
@@ -14,10 +14,11 @@ please refer to the manual of your debugger.
 To operate the program best set a breakpoint in line 3. 
 This is still before the operation.
 
-1  int a,b,c;
-2  main()
-3  {
-4  c=a+b;}
+  1  int a,b,c;
+  2  main()
+  3  {
+  4  c=a+b;
+  5  }
 
 Run the program and wait until it stops at the breakpoint in line 3.
 
@@ -37,6 +38,12 @@ to its end and exit.
 
 Changes:
 --------
+
+Version 3.1:
+
+Placing the closing curly bracket in a new line to make the code readable
+more clearly
+
 
 Version 3.0:
 

@@ -4,11 +4,17 @@ First calculations, additions of numbers
 See readme.txt for details.
 
 
-Code Space : 30 bytes
+Code Space : 32 bytes
 
 
 Changes:
 ---
+
+Version 4.0:
+
+Replacing the data type "int" by "float" so that floating point numbers now
+can be used for the calculation.
+
 
 Version 3.1:
 

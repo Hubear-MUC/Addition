@@ -1,4 +1,4 @@
-int a,b,c;
+float a,b,c;
 
 main()
 {

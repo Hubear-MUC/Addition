@@ -1,32 +1,38 @@
-Addition 3.1
+Addition 4.0
 ------------
 
 Two numbers get added together.
 
 The program has to be used with a debugger, because routines for user
-interaction did not fit into the code space of 30 bytes yet.
+interaction did not fit into the code space of 32 bytes yet.
 
 To use the program compile with debugging information.
 
 This might be achieved differently concerning the debugger you use, so
 please refer to the manual of your debugger.
 
-To operate the program best set a breakpoint in line 3. 
+To operate the program best set a breakpoint in line 3 or 4. 
 This is still before the operation.
 
-  1  int a,b,c;
-  2  main()
-  3  {
-  4  c=a+b;
-  5  }
+Set a further breakpoint at line 6 to prevent the program from finishing
+before you can investigate the result.
 
-Run the program and wait until it stops at the breakpoint in line 3.
+  1  float a,b,c;
+  2
+  3  main()
+  4  {
+  5  c=a+b;
+  6  }
 
-Next assign the values that have to be added together to the variables a
-and b.
+Run the program and wait until it stops at the breakpoint in line 3 (or 4).
 
-Then continue the program execution with single steps until the operation was
-made. Usually this sould be just one step.
+Next assign the values to be added together to the variables a and b.
+
+Then continue the program so that it does the calculation and stops again at
+the breakpoint at line 6.
+
+Alternatively you can continue the program execution by using single steps
+until the calculation happened.
 
 After the calculation the result will be in variable c.
 
@@ -36,8 +42,16 @@ Next continue the program execution in the normal way to let the program run
 to its end and exit.
 
 
+
+
 Changes:
 --------
+
+Version 4.0:
+
+Replacing the data type "int" by "float" so that floating point numbers now
+can be used for the calculation.
+
 
 Version 3.1:
 

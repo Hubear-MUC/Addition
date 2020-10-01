@@ -1,10 +1,10 @@
-Addition 4.0
+Addition 5.0
 ------------
 
 Two numbers get added together.
 
 The program has to be used with a debugger, because routines for user
-interaction did not fit into the code space of 32 bytes yet.
+interaction did not fit into the code space of 34 bytes yet.
 
 To use the program compile with debugging information.
 
@@ -17,7 +17,7 @@ This is still before the operation.
 Set a further breakpoint at line 6 to prevent the program from finishing
 before you can investigate the result.
 
-  1  float a,b,c;
+  1  double a,b,c;
   2
   3  main()
   4  {
@@ -46,6 +46,12 @@ to its end and exit.
 
 Changes:
 --------
+
+Version 5.0:
+
+Replacing the data type "float" by "double" to increase the precision of
+the calculation.
+
 
 Version 4.0:
 

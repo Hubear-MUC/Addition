@@ -1,4 +1,4 @@
-float a,b,c;
+double a,b,c;
 
 main()
 {

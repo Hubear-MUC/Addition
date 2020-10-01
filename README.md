@@ -4,11 +4,17 @@ First calculations, additions of numbers
 See readme.txt for details.
 
 
-Code Space : 32 bytes
+Code Space : 34 bytes
 
 
 Changes:
 ---
+
+Version 5.0:
+
+Replacing the data type "float" by "double" to increase the precision of
+the calculation.
+
 
 Version 4.0:
 

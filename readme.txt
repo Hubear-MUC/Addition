@@ -1,51 +1,34 @@
-Addition 5.0
+Addition 6.0
 ------------
 
 Two numbers get added together.
 
-The program has to be used with a debugger, because routines for user
-interaction did not fit into the code space of 34 bytes yet.
+The code of verison 6.0 was completely rewritten.
 
-To use the program compile with debugging information.
+Addition 6.0 uses the functions  in()  and  out()  as well as the file  incl.h  to supply complete user interaction.
 
-This might be achieved differently concerning the debugger you use, so
-please refer to the manual of your debugger.
+Thus working with it by using a debugger is not necessary anymore.
 
-To operate the program best set a breakpoint in line 3 or 4. 
-This is still before the operation.
+Just invoke the program.
 
-Set a further breakpoint at line 6 to prevent the program from finishing
-before you can investigate the result.
+It will ask for the two numbers that should be added together by using a prompt:
 
-  1  double a,b,c;
-  2
-  3  main()
-  4  {
-  5  c=a+b;
-  6  }
+  in : 
+  
+After entering the second number the calculation is done and the result gets shown on the screen (in the terminal).
 
-Run the program and wait until it stops at the breakpoint in line 3 (or 4).
-
-Next assign the values to be added together to the variables a and b.
-
-Then continue the program so that it does the calculation and stops again at
-the breakpoint at line 6.
-
-Alternatively you can continue the program execution by using single steps
-until the calculation happened.
-
-After the calculation the result will be in variable c.
-
-Check the content of variable c to get the result.
-
-Next continue the program execution in the normal way to let the program run
-to its end and exit.
-
+  out : [number]
 
 
 
 Changes:
 --------
+
+Version 6.0
+
+Complete rewrite of the code.
+Implementation of full user interaction.
+
 
 Version 5.0:
 

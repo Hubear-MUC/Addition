@@ -4,11 +4,17 @@ First calculations, additions of numbers
 See readme.txt for details.
 
 
-Code Space : 34 bytes
+Code extent : 75 bytes
 
 
 Changes:
 ---
+
+Version 6.0
+
+Complete rewrite of the code.
+Implementation of full user interaction.
+
 
 Version 5.0:
 

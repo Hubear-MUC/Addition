@@ -4,11 +4,18 @@ First calculations, additions of numbers
 See readme.txt for details.
 
 
-Code extent : 75 bytes
+Code extent : max. 79 bytes
 
 
 Changes:
 ---
+
+Version 6.1
+
+Replaced the data type  int  by  double to enable calculations of real numbers.
+Version 6.0 was just able to calculate with int- numbers which are just a small part of the numbers that can appear in serious calculations.
+
+
 
 Version 6.0
 

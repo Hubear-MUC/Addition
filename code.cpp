@@ -1,5 +1,5 @@
-#include "incl.h"
-int a,b,c;
+#include "dincl.h"
+double a,b,c;
 main()
 {
 a=in();

@@ -1,11 +1,13 @@
-Addition 6.0
+Addition 6.1
 ------------
 
 Two numbers get added together.
 
-The code of verison 6.0 was completely rewritten.
+The code of verison 6.1 got equipped with the data type "double" instead of "int".
 
-Addition 6.0 uses the functions  in()  and  out()  as well as the file  incl.h  to supply complete user interaction.
+This enables Addition Version 6.1 to calculate with real numbers that can come up in doing scientific calculations, because just int- numbers are insufficient here.
+
+Addition 6.1 uses the functions  in()  and  out()  as well as the file  incl.h  to supply complete user interaction.
 
 Thus working with it by using a debugger is not necessary anymore.
 
@@ -21,8 +23,15 @@ After entering the second number the calculation is done and the result gets sho
 
 
 
+
 Changes:
 --------
+
+Version 6.1
+
+Replaced the data type  int  by  double to enable calculations of real numbers.
+Version 6.0 was just able to calculate with int- numbers which are just a small part of the numbers that can appear in serious calculations.
+
 
 Version 6.0
 

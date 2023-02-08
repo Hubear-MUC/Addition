@@ -1,31 +1,40 @@
-Addition 6.1
-------------
+Addition 7.0
 
-Two numbers get added together.
+Two numbers given as arguments are added and the result will be shown in the
+terminal.
 
-The code of verison 6.1 got equipped with the data type "double" instead of "int".
+The new feature is that the numbers to be added together can be given as
+arguments at the command line when the program is invoked.
 
-This enables Addition Version 6.1 to calculate with real numbers that can come up in doing scientific calculations, because just int- numbers are insufficient here.
+Just invoke like
 
-Addition 6.1 uses the functions  in()  and  out()  as well as the file  incl.h  to supply complete user interaction.
+  ./add number1 number2
 
-Thus working with it by using a debugger is not necessary anymore.
+for example
 
-Just invoke the program.
+  ./add 5.80 6.95
 
-It will ask for the two numbers that should be added together by using a prompt:
+And the result will be given back.
+The numbers are represented as double- values.
 
-  in : 
-  
-After entering the second number the calculation is done and the result gets shown on the screen (in the terminal).
-
-  out : [number]
+If too few arguments are given, the program aborts without telling a result.
 
 
+The interactive mode that enabled entering the numbers after invocation with
+"in: " prompts got removed because the addition of two numbers certainly is
+not regarded as a big task and it was considered more comfortable to pass the
+two numbers just at the invocation.
 
 
-Changes:
---------
+
+Version history:
+----------------
+
+Version 7.0
+
+Numbers now will be given as arguments at invocation.
+Removing the interactive promts for the numbers after invocation.
+
 
 Version 6.1
 

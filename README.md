@@ -1,20 +1,28 @@
 # Addition
-First calculations, additions of numbers
+
+Version 7.0
+
+Additions of numbers
 
 See readme.txt for details.
 
 
-Code extent : max. 79 bytes
+Code extent : max. 110 bytes
 
 
 Changes:
 ---
 
+Addition 7.0
+
+Two numbers given as arguments are added and the result will be shown in the
+terminal.
+
+
 Version 6.1
 
 Replaced the data type  int  by  double to enable calculations of real numbers.
 Version 6.0 was just able to calculate with int- numbers which are just a small part of the numbers that can appear in serious calculations.
-
 
 
 Version 6.0

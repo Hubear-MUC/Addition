@@ -6,6 +6,8 @@ Additions of numbers
 
 See readme.txt for details.
 
+The files marked with older version numbers are used by previous versions of the program.
+
 
 Code extent : max. 110 bytes
 

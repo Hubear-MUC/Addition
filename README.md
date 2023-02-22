@@ -1,6 +1,6 @@
 # Addition
 
-Version 7.0
+Version 7.1
 
 Additions of numbers
 
@@ -9,11 +9,16 @@ See readme.txt for details.
 The files marked with older version numbers are used by previous versions of the program.
 
 
-Code extent : max. 120 bytes
+Code extent : max. 124 bytes
 
 
 Changes:
 ---
+
+Version 7.1
+
+Fixing the issue with the segemntation fault when too less arguments are given at invocation.
+
 
 Addition 7.0
 

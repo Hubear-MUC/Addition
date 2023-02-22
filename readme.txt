@@ -1,10 +1,17 @@
-Addition 7.0
+Addition 7.1
 
 Two numbers given as arguments are added and the result will be shown in the
 terminal.
 
 The new feature is that the numbers to be added together can be given as
 arguments at the command line when the program is invoked.
+
+It will be assumed that the name of the program file after compilation will be
+
+  add
+  
+If you chose a different name please use this one instead of "add".
+
 
 Just invoke like
 
@@ -26,9 +33,18 @@ not regarded as a big task and it was considered more comfortable to pass the
 two numbers just at the invocation.
 
 
+Version 7.0 caused a segmentation fault when given just one number as argument.
+This bug was fixed with this version.
+
+
 
 Version history:
 ----------------
+
+Version 7.1
+
+Fixing the issue with the segemntation fault when too less arguments are given at invocation.
+
 
 Version 7.0
 
